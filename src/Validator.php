@@ -14,7 +14,7 @@ use LicenseBuddy\Client\OfflineKey;
  * @author     Lee Mahoney <lee@leemahoney.dev>
  * @copyright  Copyright (c) Lee Mahoney 2022
  * @license    MIT License
- * @version    1.0.1
+ * @version    1.0.0
  * @link       https://leemahoney.dev
  */
 

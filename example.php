@@ -11,7 +11,7 @@ use LicenseBuddy\Client\Validator;
  * @author     Lee Mahoney <lee@leemahoney.dev>
  * @copyright  Copyright (c) Lee Mahoney 2022
  * @license    MIT License
- * @version    1.0.1
+ * @version    1.0.0
  * @link       https://leemahoney.dev
  */
 
@@ -21,8 +21,8 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 // Set configuration options
 $configOptions = [
-    'remoteUrl'         => 'https://store.leemahoney.tech/',
-    'applicationKey'    => 'trialtest',
+    'remoteUrl'         => 'https://your.whmcs.url/',
+    'applicationKey'    => 'your-application-key',
     'allowOffline'      => true,
     'sleepDays'         => 5,
     'offlineDays'       => 2,
@@ -32,7 +32,7 @@ $configOptions = [
 $validator = new Validator($configOptions);
 
 // Set the license key
-$validator->setLicenseKey('TRIAL-b7087295bbc8');
+$validator->setLicenseKey('TEST-YOURLICENSEKEY');
 
 // Optionally set the offline license key if provided (validation is performed on the key)
 //$validator->setOfflineKey('');
