@@ -1,0 +1,42 @@
+{
+    "name": "leemahoney3/licensebuddy-client",
+    "description": "PHP library to connect to the LicenseBuddy WHMCS module to verify your license keys",
+    "type": "package",
+    "version": "1.0.0",
+    "keywords": [
+        "php",
+        "licensebuddy",
+        "licensing",
+        "whmcs"
+    ],
+    "homepage": "https://github.com/leemahoney3/licensebuddy-client",
+    "license": "MIT",
+    "authors": [ 
+        {
+            "name": "Lee Mahoney",
+            "email": "lee@leemahoney.dev",
+            "homepage": "https://leemahoney.dev",
+            "role": "author"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/leemahoney3/licensebuddy-client/issues",
+        "source": "https://github.com/leemahoney3/licensebuddy-client"
+    },
+    "funding": [
+        {
+            "type": "other",
+            "url": "https://www.buymeacoffee.com/leemahoney3"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "nesbot/carbon": "^2.62"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "LicenseBuddy\\Client\\": "src"
+        }
+    }
+}
